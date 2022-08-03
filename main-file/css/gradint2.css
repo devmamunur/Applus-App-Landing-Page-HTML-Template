@@ -1,0 +1,206 @@
+
+/* common */
+
+.fp-fp::before,
+.gradient-color,
+.header_area.sticky,
+.wellcome_area::before,
+#features::before,
+.subscribe-section::before,
+#video_area::before,
+#testimonial .tm_item_info,
+#download::before,
+#team .team_slider_item_info,
+.footer-contact-area::before,
+.faq-section::before,
+#pricing .price .info h5,
+#pricing .price .buy_button
+#pricing .price-best .buy_button,
+.faq-section .btn-link[aria-expanded=false]:focus, 
+.faq-section .btn-link[aria-expanded=true]:focus, 
+.faq-section .btn-link,
+#statistics::before,
+#pricing .shadow-button,
+#download .download_links li a,
+.fp-fp,
+#scrollUp 
+{
+	-webkit-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-moz-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-o-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+}
+
+
+#download .download_links li a:hover,
+.fp-fp:hover,
+#scrollUp:hover
+{
+	-webkit-background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-moz-background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-o-background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+}
+
+/* header area start */
+
+.wellcome_area {
+	background:url(../img/bg-img/welcome-area.jpeg) no-repeat center;
+	background-size: cover;
+  background-attachment: fixed;
+}
+.wellcome_area::before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+opacity: .9;
+}
+
+
+@media  (max-width: 991px) {
+	.header_area {
+		-webkit-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+		-moz-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+		-o-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+		background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	}
+	}
+
+/* header area end */
+
+/* features area start*/
+#features {
+  background: url(../img/bg-img/future.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#features::before{
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+opacity: .9;
+
+}
+/* features area end*/
+
+/* subscribe area start*/
+.subscribe-section{
+  background: url(../img/bg-img/subscribe.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.subscribe-section::before{
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+opacity: .9;
+
+}
+/* subscribe area end*/
+
+/* video_area area start*/
+#video_area{
+  background: url(../img/bg-img/video.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#video_area::before{
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+opacity: .9;
+
+}
+/* video_area area end*/
+
+
+/* download area start*/
+#download{
+  background: url(../img/bg-img/gat-it.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#download::before{
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+opacity: .9;
+
+}
+/* download area end*/
+
+/* statistics area start*/
+#statistics{
+  background: url(../img/bg-img/static.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#statistics::before{
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+opacity: .9;
+
+}
+/* statistics area end*/
+
+
+.faq-section  {
+	background: url(../img/bg-img/faq-bg.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+	position: relative;
+}
+	.faq-section::before{
+		position: absolute;
+		content: " ";
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	opacity: .9;
+	
+	}
+/* faq section end*/
+
+/* contact area start*/
+.footer-contact-area{
+  background: url(../img/bg-img/get-it-bottom.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.footer-contact-area::before{
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+opacity: .9;
+
+}
+/* contact area end*/
+

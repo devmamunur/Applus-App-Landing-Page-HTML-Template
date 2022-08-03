@@ -1,0 +1,36 @@
+/* canvas svg css start */
+#angle-bg {
+  height: 700px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+/* === */
+.fss-container {
+  height: 700px;
+  position: absolute;
+  top: 0;
+	width: 100%;
+}
+.wellcome_area{
+  background: none!important;
+  height: 700px;
+  width: 100%;
+	position: relative;
+}
+
+.wellcome_area::before{
+	z-index: -9!important;
+}
+/* === */
+canvas {
+  height: 700px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+/* canvas svg css end */

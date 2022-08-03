@@ -1,0 +1,253 @@
+/* media query for large devices starts here */
+
+@media (min-width:992px) and (max-width:1200px) {
+    .sec-pad-two {
+        padding: 60px 0;
+    }
+    header .navbar-light .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+}
+
+/* media query for large devices ends here */
+
+/* media query for medium devices starts here */
+
+@media (min-width:768px) and (max-width:991px) {
+    #header {
+        background: #147e90;
+        text-align: center;
+    }
+    header .navbar-light .navbar-nav .nav-link {
+        line-height: 40px;
+    }
+    header .navbar-light .navbar-nav .nav-link.active {
+        color: #fec600;
+    }
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fec600;
+    }
+    header .navbar-light .navbar-nav .nav-link:hover::after,
+    header .navbar-light .navbar-nav .nav-link.active::after {
+        opacity: 0;
+    }
+    header .form-inline .form-control:focus {
+        width: 100%;
+    }
+    .sec-pad-two {
+        padding: 60px 0;
+    }
+    #testimonial .test-content p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    header .navbar .navbar-brand {
+        padding: 0;
+    }
+    #counter .counter-body {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    #counter .counter-body:nth-child(3) {
+        margin-bottom: 0px;
+    }
+    #counter .counter-body:nth-child(4) {
+        margin-bottom: 0px;
+    }
+    #pricing .tab-slider-body .person-content .person-image {
+        margin: 0 auto;
+    }
+    #pricing .tab-slider-body .person-content .person-text {
+        text-align: center;
+        padding: 0 20%;
+    }
+    footer .footer-content:nth-child(2) {
+        border: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:860px) {
+    #pricing .slick-arrow {
+        display: none!important;
+    }
+
+}
+
+/* media query for medium devices ends here */
+
+/* media query for small devices starts here */
+
+@media (min-width:576px) and (max-width:767px) {
+
+    #header {
+        background: #147e90;
+        text-align: center;
+    }
+    header .navbar-light .navbar-nav .nav-link {
+        line-height: 40px;
+    }
+    header .navbar-light .navbar-nav .nav-link.active {
+        color: #fec600;
+    }
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fec600;
+    }
+    header .navbar-light .navbar-nav .nav-link:hover::after,
+    header .navbar-light .navbar-nav .nav-link.active::after {
+        opacity: 0;
+    }
+    .sec-pad-two {
+        padding: 60px 0;
+    }
+    header .form-inline .form-control:focus {
+        width: 100%;
+    }
+    header .navbar .navbar-brand {
+        padding: 0;
+    }
+
+    #counter .counter-body {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    #team .content .overlay ul li a i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    #team .content .overlay .name h6 {
+        font-size: 20px;
+    }
+    #team .content .overlay .name h6 span {
+        font-size: 13px;
+    }
+    #pricing .tab-slider-body .person-content .person-image {
+        margin: 0 auto;
+    }
+    #pricing .tab-slider-body .person-content .person-text {
+        text-align: center;
+        padding: 0 20%;
+    }
+    footer .footer-content {
+        border: 0;
+    }
+    #testimonial .test-content p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* media query for small devices ends here */
+
+/* media query for landscape devices starts here */
+
+@media (max-width:575px) {
+
+    #started .started-box p{
+        font-size: 14px;
+    }
+    #header {
+        background: #147e90;
+        text-align: center;
+    }
+    header .navbar-light .navbar-nav .nav-link {
+        line-height: 40px;
+    }
+    header .navbar-light .navbar-nav .nav-link.active {
+        color: #fec600;
+    }
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fec600;
+    }
+    header .navbar-light .navbar-nav .nav-link:hover::after,
+    header .navbar-light .navbar-nav .nav-link.active::after {
+        opacity: 0;
+    }
+    header .form-inline .form-control:focus {
+        width: 100%;
+    }
+    .sec-pad-two {
+        padding: 60px 0;
+    }
+    header .navbar .navbar-brand {
+        padding: 0;
+        font-size: 16px;
+    }
+    #bannar .overlay {
+        padding-top: 150px;
+    }
+    header .navbar-brand img {
+        max-height: 50px;
+    }
+    #bannar p {
+        font-size: 15px;
+    }
+    #bannar a {
+        font-size: 17px;
+        padding: 9px 12px;
+    }
+    #bannar h2 {
+        font-size: 30px;
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 14px;
+    }
+
+    #counter .counter-body {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    #counter .counter-body h6 {
+        font-size: 33px;
+    }
+    #counter .counter-body span {
+        font-size: 16px;
+    }
+    #faq #accordion .faq-q {
+        padding: 12px 30px 8px;
+        font-size: 17px;
+    }
+    #faq #accordion .faq-q i {
+        font-size: 15px;
+    }
+    #faq #accordion-two .faq-q {
+        padding: 12px 30px 8px;
+        font-size: 17px;
+    }
+    #faq #accordion-two .faq-q i {
+        font-size: 15px;
+    }
+
+    #pricing .tab-slider-body .person-content .person-image {
+        margin: 0 auto;
+    }
+    #pricing .tab-slider-body .person-content .person-text {
+        text-align: center;
+    }
+    #testimonial {
+        padding-left: 10PX;
+        padding-right: 10PX;
+    }
+    #testimonial .test-content p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    footer .footer-content {
+        border: 0;
+    }
+    footer .follow-part ul li i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+    #testimonial .slick-current p .para-hide {
+        display: none;
+    }
+}
+
+/* media query for landscape devices ends here */

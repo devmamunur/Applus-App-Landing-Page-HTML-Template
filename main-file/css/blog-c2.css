@@ -1,0 +1,24 @@
+
+/* blog common for color 1 start */
+.blogoverlay,
+.sidebar .categories-widget ul li a span,
+.sidebar .search-form .btn,
+.sidebar .search-form .btn:focus,
+.sidebar .categories-widget ul li a:hover,
+.sidebar .tags-widget ul li a:hover ,
+.comments-form .btn-default
+ {  
+	-webkit-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-moz-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-o-background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+}
+
+
+.comments-form .btn-default:hover{
+	-webkit-background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-moz-background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	-o-background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+}
+/* blog common for color 1 end */

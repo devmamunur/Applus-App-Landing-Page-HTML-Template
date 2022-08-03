@@ -1,0 +1,59 @@
+.kc-wrap {
+	overflow: hidden;
+	position: relative;
+	background-position: center;
+	width: 100%;
+	padding-top: 55%;
+	text-align: center;
+}
+
+.kc-horizon {
+	visibility: hidden;
+}
+
+.kc-item {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	visibility: hidden;
+}
+
+
+.kc-reflection {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0%;
+	height: 0
+}
+
+.kc-nav-wrap {
+	display: inline-block;
+	position: absolute;
+	z-index: 1000
+}
+
+.kc-nav-button,
+.kc-nav-button-active {
+	width: 16px;
+	height: 16px;
+	background-color: #888;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 16px;
+	border: 1px solid rgba(0, 0, 0, .5)
+}
+
+.kc-nav-button.active {
+	background-color: #fff
+}
+
+.kc-nav-button.last {
+	margin-right: 0
+}
+
+.kc-wrap .kc-horizon + div {
+	display: none!important
+}
