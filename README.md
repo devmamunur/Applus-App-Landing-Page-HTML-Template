@@ -1,6 +1,6 @@
 # Applus - App Landing Page HTML Template
 
-Embark on an extraordinary journey with Applus, an unparalleled App Landing Page HTML template that unlocks the true potential of your app. Prepare to be captivated as Applus takes your audience on a remarkable adventure, leaving an indelible mark on their minds. This is no ordinary template; it is a transformative and responsive solution meticulously crafted to propel your app presentation to celestial heights. With its sleek and commanding design, Applus delivers a seamless user experience that will leave your users spellbound. Prepare to showcase your app or product with unrivaled elegance and sophistication through Applus—the ultimate choice for those who demand nothing but the best.
+Applus App Landing Page Template is a responsive and mobile-friendly HTML template that sets the stage for your app or product with unrivaled elegance. Its clean design and powerful features make it the perfect choice to present your creation effortlessly. With easy customization options and SEO-friendly elements, Applus empowers you to create a unique and captivating app landing page. Experience the seamless blend of aesthetics and functionality with Applus and unlock the full potential of your app or product.
 
 ## Demo
 🔗 [Live Demo](https://mamunverse.github.io/Applus-App-Landing-Page-HTML-Template)
